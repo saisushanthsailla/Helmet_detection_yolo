@@ -1,0 +1,47 @@
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and API keys
+.env
+.env.*
+!.env.example
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# YOLO training and prediction outputs
+runs/
+results/
+output/
+outputs/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Processed videos and generated images
+*_detection_result.jpg
+*_detection_video.mp4
+*.avi
+*.mov
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
